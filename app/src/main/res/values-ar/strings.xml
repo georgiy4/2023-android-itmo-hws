@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">المهمة2</string>
+    <string name="enter_password">أدخل كلمة المرور</string>
+    <string name="enter_login">أدخل اسم المستخدم الخاص بك</string>
+    <string name="no_login">تسجيل الدخول مفقود</string>
+    <string name="no_password">كلمة المرور مفقودة</string>
+    <string name="incorrect_login">تسجيل دخول غير صالح</string>
+    <string name="incorrect_password">كلمة مرور غير صالحة</string>
+    <string name="password_must_contain_6_digits">يجب أن تحتوي كلمة المرور على 6 أرقام على الأقل</string>
+    <string name="enter">مدخل</string>
+    <string name="registration">التسجيل</string>
+    <string name="theme">الموضوع</string>
+    <string name="dark">الظلام</string>
+    <string name="light">مشرق</string>
+    <string name="system">النظام</string>
+</resources>

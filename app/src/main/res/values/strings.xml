@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">itmo-example</string>
+    <string name="app_name">Task2</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_login">Enter login</string>
+    <string name="no_login">There is no login</string>
+    <string name="no_password">There is no password</string>
+    <string name="incorrect_login">Incorrect login</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="password_must_contain_6_digits">Password must contain at least 6 digits</string>
+    <string name="enter">Enter</string>
+    <string name="registration">Registration</string>
+    <string name="theme">Theme</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="system">System</string>
 </resources>

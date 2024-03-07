@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Задание2</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="enter_login">Введите логин</string>
+    <string name="no_login">Логин отсутствует</string>
+    <string name="no_password">Пароль отсутствует</string>
+    <string name="incorrect_login">Неверный логин</string>
+    <string name="incorrect_password">Неверный пароль</string>
+    <string name="password_must_contain_6_digits">Пароль должен содержать минимум 6 цифр</string>
+    <string name="enter">Вход</string>
+    <string name="registration">Регистрация</string>
+    <string name="theme">Тема</string>
+    <string name="dark">Тёмная</string>
+    <string name="light">Светлая</string>
+    <string name="system">Системная</string>
+</resources>
