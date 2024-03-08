@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">itmo-example</string>
+    <string name="app_name">My Application</string>
+    <string name="sub_task">Sub-task</string>
+    <string name="start">Start</string>
+    <string name="alarm">Alarm</string>
+    <string name="time_to_get_up">It\'s time to get up!</string>
 </resources>
