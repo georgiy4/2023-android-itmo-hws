@@ -4,11 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
+        android:id="@+id/header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chats"
         android:textSize="100px"
         android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_marginTop="50px"/>
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="80px"
+        android:layout_gravity="center"
         android:textColor="@color/black"
         android:layout_marginTop="50px"/>
 
@@ -20,13 +31,27 @@
         android:text="Back"
         android:textSize="70px" />
 
+    <Button
+        android:id="@+id/bt_create"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="Create chat"
+        android:textSize="70px" />
+
     <ListView
-        android:layout_width="match_parent"
         android:id="@+id/list_chat"
-        android:layout_height="match_parent"
-        android:layout_marginTop="225px"
+        android:layout_width="match_parent"
+        android:layout_height="575dp"
+        android:layout_marginTop="200px"
         android:divider="#fff"
-        android:dividerHeight="1dp" >
-    </ListView>
+        android:dividerHeight="1dp"></ListView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
 
 </FrameLayout>
