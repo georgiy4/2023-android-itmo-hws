@@ -20,6 +20,7 @@ class MessageController {
                     && entity.timestamp != null && entity.state != null
             is Chat -> entity.id != null && entity.userIds != null && entity.messageIds != null
             is User -> entity.id != null && entity.name != null
+            is GroupChat -> entity.id != null && entity.chatAvatarUrl != null && entity.usersIds != null
             else -> false
         }
 
